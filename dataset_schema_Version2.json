@@ -1,0 +1,37 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["productTitle", "productUrl", "regularPrice", "couponDiscount", "finalPrice"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "productTitle": {
+                        "label": "Product Title",
+                        "format": "text"
+                    },
+                    "productUrl": {
+                        "label": "Product URL",
+                        "format": "link"
+                    },
+                    "regularPrice": {
+                        "label": "Regular Price",
+                        "format": "text"
+                    },
+                    "couponDiscount": {
+                        "label": "Coupon Discount",
+                        "format": "text"
+                    },
+                    "finalPrice": {
+                        "label": "Final Price",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}

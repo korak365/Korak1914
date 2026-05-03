@@ -1,0 +1,17 @@
+{
+    "actorSpecification": 1,
+    "name": "amazon-hidden-coupons-scraper",
+    "title": "Amazon Hidden Coupons Scraper",
+    "description": "Finds discounts not visible on main search pages.",
+    "version": "0.0",
+    "meta": {
+        "templateId": "ai-generated-actor",
+        "generatedBy": "Claude"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "dockerfile": "../Dockerfile"
+}
